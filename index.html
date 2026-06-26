@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -14,15 +15,17 @@
         <nav class="navbar">
             <h1>Portfolio</h1>
             <div class="menu">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Service</a>
-                <a href="#">Contact</a>
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Service">Service</a>
+                <a href="#Contact">Contact</a>
+            </div>
+            <div class="icon"><i class="fa-solid fa-bars"></i>
             </div>
         </nav>
     </header>
     <!-- hero section -->
-    <section class="hero">
+    <section id="About" class="hero">
         <div class="about">
             <h1>About me</h1>
             <h2>I'm <span>Qazi Shaheer</span></h2>
@@ -47,8 +50,79 @@
                 </div>
             </div>
         </div>
-        <div class="img"><img src="./image/mypic.jpeg" alt=""></div>
+        <div class="img"><img src="./image/mypic.jpeg" alt="">
+        </div>
     </section>
+    <!-- skills -->
+    <section id="Service" class="skills">
+        <div class="expert">
+            <p>My Experties</p>
+            <h1>Skills</h1>
+        </div>
+        <div class="parent">
+            <div class="card1">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <h4>95%</h4>
+            </div>
+            <div class="card2">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <h4>80%</h4>
+            </div>
+            <div class="card3">
+                <i class="fa-brands fa-js"></i>
+                <h3>Javascript</h3>
+                <h4>75%</h4>
+            </div>
+            <div class="card4">
+                <i class="fa-brands fa-github"></i>
+                <h3>GitHub</h3>
+                <h4>85%</h4>
+            </div>
+        </div>
+        <div class="parent2">
+            <div class="card5">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3> Responsive Desig</h3>
+                <h4>80%</h4>
+            </div>
+            <div class="card6">
+                <i class="fa-solid fa-wind"></i>
+                <h3>Tailwind CSS</h3>
+                <h4>70%</h4>
+            </div>
+        </div>
+    </section>
+    <!-- contact section  -->
+    <section id="Contact" class="contact">
+        <div class="parent1">
+            <div class="contact1">
+                <h1>Let's work together</h1>
+                <p>I'am availble freelance work .let,s build <br>something amaizing together</p>
+                <button>Hire me</button>
+            </div>
+        </div>
+        <div class="list">
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <h5>Email</h5>
+                <a href="qazishaheersiddique@gmail.com">qazishaheersiddique@gmail.com</a>
+            </div>
+            <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                <h5>Phone</h5>
+                <p>03712026211</p>
+            </div>
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>Location</h5>
+                <p>Karachi</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">© 2026 <span>Qazi Shaheer</span> | Frontend Developer
+    </footer>
 </body>
 
 </html>
