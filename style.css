@@ -17,6 +17,7 @@ body {
     align-items: center;
     color: white;
     margin: 15px;
+    position: sticky;
 }
 
 .navbar h1 {
@@ -514,8 +515,16 @@ img:hover {
     margin: 10px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.icons{
+.footer h2{
+    margin-left: 40px;
+    text-decoration: underline green;
+}
+.icons {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
@@ -523,6 +532,7 @@ img:hover {
     font-size: 20px;
     color: #8AFF00;
 }
+
 @media(max-width:550px) {
     .icon {
         display: block;
@@ -532,6 +542,8 @@ img:hover {
     .menu {
         display: none;
     }
-
-
+    .hero{
+        flex-direction: column;
+    }
+  
 }
